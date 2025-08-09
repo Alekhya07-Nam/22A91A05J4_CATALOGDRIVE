@@ -1,0 +1,29 @@
+Commands to run: 
+1. Install g++ (if not already installed)
+Download MinGW from: https://sourceforge.net/projects/mingw/
+
+During installation, make sure you select:
+
+mingw32-gcc-g++ (for C++)
+
+Complete installation.
+
+
+
+2. Add g++ to PATH
+Go to Start Menu → Edit the system environment variables.
+
+Click Environment Variables.
+
+Under System variables, select Path → Edit.
+
+Add your MinGW bin folder path, e.g.:
+C:\MinGW\bin
+Click OK and restart the terminal.
+
+
+
+3. Compile & Run
+Move your code and input.json into the same folder and run:
+g++ ROUND_ONE.cpp -o ROUND_ONE.exe
+ROUND_ONE.exe
